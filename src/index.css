@@ -1,0 +1,48 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    color: #2D3748;
+    background-color: #FFF8F0;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Outfit', 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+}
+
+:root {
+  --color-orange-soft: #F28C28;
+  --color-yellow-warm: #F4C542;
+  --color-beige-light: #FFF3E0;
+  --color-cream: #FFF8F0;
+  --color-white: #FFFFFF;
+  --color-green-soft: #8BC34A;
+  --color-green-dark: #689F38;
+  --color-orange-dark: #D87015;
+}
+
+/* Custom smooth scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #FFF8F0;
+}
+::-webkit-scrollbar-thumb {
+  background: #F4C542;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #F28C28;
+}
+
+/* Selection highlight */
+::selection {
+  background-color: #F4C542;
+  color: #2D3748;
+}
+

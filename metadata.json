@@ -1,0 +1,6 @@
+{
+  "name": "Pinceladas de Salud",
+  "description": "Plataforma educativa de nutrición basada en evidencia científica, hábitos saludables, recetas y divulgación.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
