@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, User, MessageSquare, Send, CheckCircle2, ShieldAlert, Sparkles } from 'lucide-react';
+import { Mail, User, MessageSquare, Send, CheckCircle2, Sparkles } from 'lucide-react';
 import { ContactFormData } from '../types';
 
 export const ContactSection: React.FC = () => {
@@ -61,15 +61,6 @@ export const ContactSection: React.FC = () => {
               <p className="text-sm text-[#4A5568] leading-relaxed">
                 Este canal está destinado a recibir retroalimentación, ideas para nuevos artículos, comentarios sobre recetas o consultas sobre nuestras fuentes educativas.
               </p>
-
-              <div className="p-4 rounded-2xl bg-amber-50 border border-amber-200 text-xs text-[#2D3748] space-y-2">
-                <p className="font-bold flex items-center gap-1.5 text-[#D87015]">
-                  <ShieldAlert className="w-4 h-4 shrink-0" /> Nota Importante de Divulgación:
-                </p>
-                <p className="text-[#718096] leading-relaxed">
-                  No ofrecemos servicios de consulta nutricional personalizada, tratamientos clínicos ni agendamiento de citas médicas. Si requieres atención de salud personalizada, consulta a un profesional cualificado.
-                </p>
-              </div>
             </div>
 
             <div className="p-6 rounded-3xl bg-lime-50 border border-lime-200 flex items-center gap-4">

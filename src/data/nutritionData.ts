@@ -1,4 +1,7 @@
 import { Nutrient, FoodGroup, Benefit, Recipe, BlogPost, Myth, HealthyTip, GalleryItem } from '../types';
+import waterGlassImg from '../assets/images/glass_of_water_1784770459944.jpg';
+import nutsSeedsImg from '../assets/images/nuts_and_seeds_1784770470497.jpg';
+import sugarReductionImg from '../assets/images/healthy_sugar_reduction_1784770729918.jpg';
 
 export const NUTRIENTS_DATA: Nutrient[] = [
   {
@@ -110,7 +113,7 @@ export const NUTRIENTS_DATA: Nutrient[] = [
       'Ayuda a la digestión y eliminación eficiente'
     ],
     detailedDescription: 'Representa entre el 60% y 70% del peso corporal adulto. Mantener una hidratación constante es pilar básico de vitalidad.',
-    image: 'https://images.unsplash.com/photo-1548839140-29a749e1bc4e?auto=format&fit=crop&w=800&q=80',
+    image: waterGlassImg,
     badgeColor: 'bg-sky-100 text-sky-800 border-sky-200'
   }
 ];
@@ -183,7 +186,7 @@ export const FOOD_GROUPS_DATA: FoodGroup[] = [
     examples: ['Nueces', 'Almendras', 'Semillas de chía', 'Semillas de calabaza', 'Avellanas'],
     portionTip: 'Consúmelos al natural o tostados sin sal ni frituras. Una porción equivale a un puñado cerrado (30g).',
     iconName: 'Nut',
-    image: 'https://images.unsplash.com/photo-1508061253366-f7da158b6d96?auto=format&fit=crop&w=800&q=80',
+    image: nutsSeedsImg,
     accentBg: 'bg-emerald-50 border-emerald-200'
   },
   {
@@ -320,31 +323,6 @@ export const RECIPES_DATA: Recipe[] = [
     nutritionHighlights: ['Muy baja en calorías', 'Acción antiinflamatoria', 'Rica en betacarotenos']
   },
   {
-    id: 'snack-hummus-bastones',
-    title: 'Hummus Tradicional con Bastones de Verdura Fresca',
-    category: 'Snacks',
-    prepTime: '10 min',
-    servings: '2-4 porciones',
-    difficulty: 'Fácil',
-    image: 'https://images.unsplash.com/photo-1628835222002-3c82ef9ff8ee?auto=format&fit=crop&w=800&q=80',
-    description: 'El aperitivo ideal: cremoso, saciante y repleto de minerales e hidratos de lenta absorción.',
-    ingredients: [
-      '1 bote de garbanzos cocidos (400g) enjuagados',
-      '2 cucharadas de tahini (pasta de sésamo)',
-      '1 diente de ajo pequeño',
-      'Zumo de 1/2 limón',
-      '3 cucharadas de AOVE y pizca de comino',
-      'Acompañamiento: Bastones de zanahoria, pepino y pimiento rojo'
-    ],
-    steps: [
-      'Colocar en el procesador los garbanzos, tahini, ajo, zumo de limón, comino y AOVE.',
-      'Procesar añadiendo 2-3 cucharadas de agua helada hasta lograr una mezcla aterciopelada.',
-      'Lavar y cortar las verduras en bastones alargados crujientes.',
-      'Servir el hummus decorado con un chorrito de AOVE y pimentón dulce.'
-    ],
-    nutritionHighlights: ['Proteína y fibra vegetal', 'Grasas saludables', 'Ideal para picoteo nutritivo']
-  },
-  {
     id: 'bebida-infusion-citricos',
     title: 'Agua Aromatizada de Cítricos, Menta y Jengibre',
     category: 'Bebidas',
@@ -455,7 +433,7 @@ export const BLOG_POSTS_DATA: BlogPost[] = [
     readTime: '4 min de lectura',
     date: '05 Julio, 2026',
     author: 'Equipo Pinceladas de Salud',
-    image: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=800&q=80',
+    image: waterGlassImg,
     tags: ['Agua', 'Hidratación', 'Vitalidad'],
     interactiveType: 'hydrationGuide',
     contentSections: [
@@ -498,7 +476,7 @@ export const BLOG_POSTS_DATA: BlogPost[] = [
     readTime: '5 min de lectura',
     date: '20 Junio, 2026',
     author: 'Equipo Pinceladas de Salud',
-    image: 'https://images.unsplash.com/photo-1514849302-984523450ce4?auto=format&fit=crop&w=800&q=80',
+    image: sugarReductionImg,
     tags: ['Azúcar', 'Salud Metabólica', 'Recetas Sin Azúcar'],
     contentSections: [
       {
