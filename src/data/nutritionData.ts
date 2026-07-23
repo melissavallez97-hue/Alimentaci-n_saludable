@@ -387,16 +387,24 @@ export const BLOG_POSTS_DATA: BlogPost[] = [
     tags: ['Estrategia', 'Rutina Diaria', 'Salud Preventiva'],
     contentSections: [
       {
-        heading: '1. Ten siempre verdura preparada en tu refrigerador',
-        text: 'Si al abrir el refrigerador ves bastones de zanahoria, pimientos o verduras ya lavadas, será tu primera opción rápida para merendar o complementar un almuerzo.'
+        heading: '1. Ten siempre verduras preparadas en tu refrigerador',
+        text: 'Si al abrir el refrigerador ves bastones de zanahoria, pimientos o verduras ya lavadas y cortadas, será tu primera opción rápida para picar entre horas o complementar cualquier almuerzo.'
       },
       {
-        heading: '2. Sustituye refrescos por agua con sabor natural',
-        text: 'Infusionar agua con láminas de pepino, menta o frutos rojos elimina gramos masivos de azúcar sin sacrificar la frescura.'
+        heading: '2. Sustituye refrescos azucarados por agua infusionada natural',
+        text: 'Infusionar agua con láminas de pepino, menta, rodajas de cítricos o frutos rojos elimina gramos masivos de azúcar refinado sin sacrificar la frescura ni la hidratación.'
       },
       {
-        heading: '3. Planifica 3 comidas principales con proteína de calidad',
-        text: 'La proteína en cada comida mantiene tu metabolismo estable y previene los antojos dulce nocturnos.'
+        heading: '3. Incluye proteína de calidad en cada una de tus comidas principales',
+        text: 'Añadir huevos, legumbres, pescado, yogur natural o frutos secos en tu plato mantiene tus niveles de glucosa estables, prolonga la saciedad y previene los antojos dulces nocturnos.'
+      },
+      {
+        heading: '4. Mastica despacio y come sin distracciones de pantallas',
+        text: 'Tomarte al menos 20 minutos para comer le otorga al cerebro el tiempo necesario para recibir las señales hormonales de saciedad, mejorando la digestión y evitando comer en exceso.'
+      },
+      {
+        heading: '5. Planifica tus compras semanales con una lista de alimentos reales',
+        text: 'Ir al supermercado con una lista estructurada enfocada en frutas, verduras, legumbres, granos enteros y grasas saludables previene la compra impulsiva de ultraprocesados.'
       }
     ]
   },
@@ -482,11 +490,19 @@ export const BLOG_POSTS_DATA: BlogPost[] = [
     contentSections: [
       {
         heading: '1. Reduce progresivamente en infusiones y café',
-        text: 'Si usas 2 cucharaditas de azúcar en el café, pasa a 1 durante una semana y luego a media. Tu paladar se adapta en menos de 14 días.'
+        text: 'Si usas 2 cucharaditas de azúcar en el café o té, pasa a 1 durante una semana y luego a media. Tu paladar reeduca sus receptores de dulzor en menos de 14 días.'
       },
       {
-        heading: '2. Usa canela, vainilla y nuez moscada',
-        text: 'Estas especias aportan un aroma dulce envolvente que engaña al cerebro reduciendo la necesidad de endulzantes.'
+        heading: '2. Potencia sabores con canela, vainilla, cacao puro y especias',
+        text: 'Estas especias aportan aromas envolventes y sensaciones dulces sin sumar calorías ni picos de glucosa en sangre.'
+      },
+      {
+        heading: '3. Elige frutas frescas enteras como postre principal',
+        text: 'La fibra de la fruta entera ralentiza la absorción del azúcar natural (fructosa), aportando saciedad prolongada y evitando bajones de energía.'
+      },
+      {
+        heading: '4. Prioriza un descanso reparador de 7-8 horas',
+        text: 'La falta de sueño incrementa los niveles de grelina (hormona del hambre) y reduce la leptina, provocando antojos intensos de carbohidratos refinados y azúcar por la tarde.'
       }
     ]
   }
