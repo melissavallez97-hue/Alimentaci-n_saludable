@@ -2,6 +2,7 @@ import { Nutrient, FoodGroup, Benefit, Recipe, BlogPost, Myth, HealthyTip, Galle
 import waterGlassImg from '../assets/images/glass_of_water_1784770459944.jpg';
 import nutsSeedsImg from '../assets/images/nuts_and_seeds_1784770470497.jpg';
 import sugarReductionImg from '../assets/images/healthy_sugar_reduction_1784770729918.jpg';
+import familyLunchImg from '../assets/images/family_lunch_meal_1784776988128.jpg';
 
 export const NUTRIENTS_DATA: Nutrient[] = [
   {
@@ -660,7 +661,7 @@ export const GALLERY_DATA: GalleryItem[] = [
     id: 'g5',
     title: 'Familia Compartiendo Almuerzo Saludable',
     category: 'Familias compartiendo',
-    imageUrl: 'https://images.unsplash.com/photo-1543353071-873f17a7a088?auto=format&fit=crop&w=800&q=80',
+    imageUrl: familyLunchImg,
     description: 'La mesa compartida promueve hábitos positivos desde la infancia.'
   },
   {
